@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 585
     height: 573
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 53
+  controlID: 54
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,8 +120,8 @@ MonoBehaviour:
     y: 0
     width: 364
     height: 573
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 54
+  controlID: 126
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 55
+  controlID: 127
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,8 +291,8 @@ MonoBehaviour:
     y: 0
     width: 559
     height: 573
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -370,14 +370,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Oleg\Gay Lox
+  m_LastProjectPath: C:\Users\Oleg\Desktop\StrategyGameLikeHeroes\StrategyGameLikeHeroes
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2c340000
-    m_LastClickedID: 13356
-    m_ExpandedIDs: 000000002634000000ca9a3bffffff7f
+    m_SelectedIDs: 6c340000
+    m_LastClickedID: 13420
+    m_ExpandedIDs: 000000006834000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -405,7 +405,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026340000
+    m_ExpandedIDs: 0000000068340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -528,9 +528,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 50320000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 1e60ffff6064ffffd465ffffe465fffff465ffff0466ffff1466ffff2466ffff3466ffff4466ffff5466ffff6466ffff7466ffff8466ffff9466ffffa466ffffb466ffffc466ffffd466ffffe466fffff466ffff0467ffff1467ffff2467ffff3467ffff4467ffff5467ffff6467ffff8467ffff0ca8ffff78f4ffff92f4ffff6afbffff
+      m_SelectedIDs: 82360000
+      m_LastClickedID: 13954
+      m_ExpandedIDs: b0e8ffff90faffff6afbffffae340000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -590,9 +590,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.695466, y: 2.5683403, z: 1.8984632}
+    m_Target: {x: 21.23, y: 9.29, z: -7.83}
     speed: 2
-    m_Value: {x: 11.695466, y: 2.5683403, z: 1.8984632}
+    m_Value: {x: 47.904293, y: 183.85005, z: -29.650278}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -638,13 +638,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.19684374, y: -0.27238038, z: 0.057044424, w: 0.94014895}
+    m_Target: {x: -0.6491993, y: 0.23399708, z: -0.22044295, w: -0.6893979}
     speed: 2
-    m_Value: {x: 0.1968366, y: -0.27237052, z: 0.057042357, w: 0.94011486}
+    m_Value: {x: -0.6491737, y: 0.23398784, z: -0.22043425, w: -0.6893707}
   m_Size:
-    m_Target: 11.529029
+    m_Target: 10
     speed: 2
-    m_Value: 11.529029
+    m_Value: 29.75724
   m_Ortho:
     m_Target: 0
     speed: 2

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Selector : MonoBehaviour
 {
-    public MaximUnit unit;
     public Unit SelectedUnit = null;
     // Update is called once per frame
     void Update()
@@ -24,7 +23,10 @@ public class Selector : MonoBehaviour
                         SelectedUnit = unit;
                         Vector3 coord = hit.transform.position;
                         //cube.unit = Instantiate(unit, coord + new Vector3(0, unit.transform.localScale.y * 1.565f + hit.transform.localScale.y / 200, 0), Quaternion.identity);
-                        hit.transform.GetComponent<MeshRenderer>().material.SetColor("_Color", Color.cyan);
+                        if (hit.transform.GetComponentInChildren<MeshRenderer>())
+                        {
+                            hit.transform.GetComponentInChildren<MeshRenderer>().material.SetColor("_Color", Color.cyan);
+                        }
                         Debug.Log("Selected");
                     }
                 }
@@ -42,8 +44,11 @@ public class Selector : MonoBehaviour
                         Vector3 coord = hit.transform.position;
                         cube.unit = SelectedUnit;
                         //cube.unit = Instantiate(unit, coord + new Vector3(0, unit.transform.localScale.y * 1.565f + hit.transform.localScale.y / 200, 0), Quaternion.identity);
-                        SelectedUnit.transform.position = coord + new Vector3(0, SelectedUnit.transform.localScale.y * 1.565f + hit.transform.localScale.y / 200, 0);
-                        SelectedUnit.transform.GetComponent<MeshRenderer>().material.SetColor("_Color", Color.white);
+                        SelectedUnit.transform.position = coord + new Vector3(0, SelectedUnit.transform.localScale.y * SelectedUnit.HeightCal, 0);
+                        if (SelectedUnit.transform.GetComponentInChildren<MeshRenderer>())
+                        {
+                            SelectedUnit.transform.GetComponentInChildren<MeshRenderer>().material.SetColor("_Color", Color.white);
+                        }
                         SelectedUnit.Cube.unit = null;
                         SelectedUnit.Cube = cube;
                         SelectedUnit = null;
@@ -64,8 +69,9 @@ public class Selector : MonoBehaviour
                 var cube = hit.transform.GetComponent<Cube>();
                 if (cube && cube.unit == null)
                 {
+                    Unit unit = GameStatus.instatnce.unitpPrefub;
                     Vector3 coord = hit.transform.position;
-                    cube.unit = Instantiate(unit, coord + new Vector3(0, unit.transform.localScale.y*1.565f + hit.transform.localScale.y / 200, 0), Quaternion.identity);
+                    cube.unit = Instantiate(unit, coord + new Vector3(0, unit.transform.localScale.y*unit.HeightCal, 0), Quaternion.identity);
                     cube.unit.Cube = cube;
                     Debug.Log("Spawned");
                 }

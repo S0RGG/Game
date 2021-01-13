@@ -6,6 +6,8 @@ public class GameStatus : MonoBehaviour
 {
     public bool status = false;
     public static GameStatus instatnce = null;
+    public Unit unitpPrefub;
+
     private void Awake()
     {
         instatnce = this;

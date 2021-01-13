@@ -5,4 +5,5 @@ using UnityEngine;
 public interface IUnit 
 {
     int HitPoints { get; set; }
+    float HeightCal { get; }
 }

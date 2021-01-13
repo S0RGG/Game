@@ -6,4 +6,5 @@ public abstract class Unit : MonoBehaviour, IUnit
 {
     public int HitPoints { get; set; }
     public Cube Cube { get; set; } = null;
+    public virtual float HeightCal => 0;
 }

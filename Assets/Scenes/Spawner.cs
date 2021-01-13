@@ -34,7 +34,7 @@ public class Spawner : MonoBehaviour
                     pos,
                     HexPrefab.transform.rotation);
 
-                go.GetComponent<MeshRenderer>().material.color = Colors[(i * N + j) % Colors.Length];
+                go.GetComponent<MeshRenderer>().material.color = Colors[(2 * i * N + j) % Colors.Length];
 
                 // * Quaternion.AngleAxis(360f * (i / N / 3 + j / N) + 360f * Mathf.Sin(0.001f * Mathf.PI * (i / N / 3 + j / N)), Vector3.right)
             }

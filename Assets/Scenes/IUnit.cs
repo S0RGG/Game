@@ -6,4 +6,5 @@ public interface IUnit
 {
     int HitPoints { get; set; }
     float HeightCal { get; }
+    int MoveSpeed { get; }
 }

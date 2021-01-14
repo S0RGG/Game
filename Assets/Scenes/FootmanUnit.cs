@@ -9,4 +9,5 @@ public class FootmanUnit : Unit
         this.HitPoints = 3;
     }
     public override float HeightCal => 0.77f;
+    public override int MoveSpeed => 3;
 }

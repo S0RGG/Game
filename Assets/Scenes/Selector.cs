@@ -38,7 +38,7 @@ public class Selector : MonoBehaviour
                 if (succ)
                 {
                     var cube = hit.transform.GetComponent<Cube>();
-                    if (cube && cube.unit == null)
+                    if (cube && cube.unit == null && cube.GetDistance(SelectedUnit.Cube) <= SelectedUnit.MoveSpeed)
                     {
                         
                         Vector3 coord = hit.transform.position;
